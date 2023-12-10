@@ -28,6 +28,9 @@ const App = () => {
         </nav>
         <div className="container mt-3">
           <Switch>
+            <Route exact path="/">
+              <StaticDataPage />
+            </Route>
             <Route path="/static">
               <StaticDataPage />
             </Route>

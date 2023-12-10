@@ -51,9 +51,9 @@ const LiveDataPage = () => {
                 <td>{item.Altitude}</td>
                 <td>{item.Temperature}</td>
                 <td>{item.isAscending ? "Yes" : "No"}</td>
-                <td style={{ backgroundColor: item.isActionRequired ? 'red' : 'transparent' }}>
-                  {item.isActionRequired ? "Yes" : "No"}
-                  {item.isActionRequired &&
+                <td style={{ backgroundColor: item.IsActionRequired ? 'red' : 'transparent' }}>
+                  {item.IsActionRequired ? "Yes" : "No"}
+                  {item.IsActionRequired &&
                     <>
                       <br />
                       <button onClick={actOnSpectrum}>Act on Spectrum</button>
